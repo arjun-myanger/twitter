@@ -1,6 +1,6 @@
 export default {
-  name: 'post',
-  title: 'Post',
+  name: 'tweet',
+  title: 'Tweet',
   type: 'document',
   fields: [
     {
@@ -61,3 +61,5 @@ export default {
         subtitle: author && `by ${author}`,
       })
     },
+  },
+}
